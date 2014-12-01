@@ -24,6 +24,7 @@
   "fS"  'evil-write-all
   "ft"  'neotree-toggle
   "p"   'projectile-commander
+  "P"   'helm-projectile-switch-project
   "tn"  'global-linum-mode
   "wb"  'split-window-right
   "wc"  'delete-window

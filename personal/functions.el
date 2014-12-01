@@ -119,3 +119,5 @@ argument takes the kindows rotate backwards."
  "Rotate your windows backward."
   (interactive "p")
   (rotate-windows (* -1 count)))
+
+(provide 'functions)

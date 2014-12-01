@@ -12,6 +12,7 @@
    evil-nerd-commenter
    evil-surround
    fancy-narrow
+   fringe-helper
    git-gutter-fringe
    helm-ag
    multiple-cursors
