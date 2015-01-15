@@ -23,8 +23,7 @@
   "fs"  'evil-write
   "fS"  'evil-write-all
   "ft"  'neotree-toggle
-  "p"   'projectile-commander
-  "P"   'helm-projectile-switch-project
+  "p"   'projectile-command-map
   "tn"  'global-linum-mode
   "wb"  'split-window-right
   "wc"  'delete-window
