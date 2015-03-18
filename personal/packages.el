@@ -19,6 +19,8 @@
    neotree
    solarized-theme
    vi-tilde-fringe
+   js2-refactor
+   golden-ratio
    ))
 
 (provide 'packages)
