@@ -56,3 +56,43 @@
   "eo"  'ensime-inspect-type-at-point
   "et"  'ensime-import-type-at-point
   "ero" 'ensime-refactor-organize-imports)
+
+(evil-leader/set-key-for-mode 'js2-mode
+  ;; refactor stuff
+  "mr3i" 'js2r-ternary-to-if
+  "mrag" 'js2r-add-to-globals-annotation
+  "mrao" 'js2r-arguments-to-object
+  "mrba" 'js2r-forward-barf
+  "mrca" 'js2r-contract-array
+  "mrco" 'js2r-contract-object
+  "mrcu" 'js2r-contract-function
+  "mrea" 'js2r-expand-array
+  "mref" 'js2r-extract-function
+  "mrem" 'js2r-extract-method
+  "mreo" 'js2r-expand-object
+  "mreu" 'js2r-expand-function
+  "mrev" 'js2r-extract-var
+  "mrig" 'js2r-inject-global-in-iife
+  "mrip" 'js2r-introduce-parameter
+  "mriv" 'js2r-inline-var
+  "mrlp" 'js2r-localize-parameter
+  "mrlt" 'js2r-log-this
+  "mrrv" 'js2r-rename-var
+  "mrsl" 'js2r-forward-slurp
+  "mrss" 'js2r-split-string
+  "mrsv" 'js2r-split-var-declaration
+  "mrtf" 'js2r-toggle-function-expression-and-declaration
+  "mruw" 'js2r-unwrap
+  "mrvt" 'js2r-var-to-this
+  "mrwi" 'js2r-wrap-buffer-in-iife
+  "mrwl" 'js2r-wrap-in-for-loop
+  "mk"   'js2r-kill
+  "xmj"  'js2r-move-line-down
+  "xmk"  'js2r-move-line-up
+
+  ;; tern stuff
+  "mc"  'tern-rename-variable
+  "mhd" 'tern-get-docs
+  "mgg" 'tern-find-definition
+  "mgG" 'tern-find-definition-by-name
+  "mt"  'tern-get-type)

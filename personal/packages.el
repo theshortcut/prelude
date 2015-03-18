@@ -21,6 +21,8 @@
    vi-tilde-fringe
    js2-refactor
    golden-ratio
+   tern
+   tern-auto-complete
    ))
 
 (provide 'packages)
