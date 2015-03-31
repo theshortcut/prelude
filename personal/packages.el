@@ -12,11 +12,14 @@
    evil-nerd-commenter
    evil-surround
    fancy-narrow
+   flycheck-rust
    fringe-helper
-   git-gutter-fringe
+   git-gutter+
+   git-gutter-fringe+
    helm-ag
    multiple-cursors
    neotree
+   rust-mode
    solarized-theme
    vi-tilde-fringe
    js2-refactor

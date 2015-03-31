@@ -1,2 +1,3 @@
 (require 'packages)
-(setq git-gutter-fr:side 'right-fringe)
+(global-git-gutter+-mode +1)
+(setq git-gutter-fr+-side 'right-fringe)
