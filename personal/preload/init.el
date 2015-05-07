@@ -8,3 +8,7 @@
 (when window-system (set-frame-size (selected-frame) 120 80))
 
 (set-frame-font "Input Mono Condensed-16" nil t)
+
+(set-frame-parameter (selected-frame) 'alpha '(98 98))
+
+(add-to-list 'default-frame-alist '(alpha 98 98))

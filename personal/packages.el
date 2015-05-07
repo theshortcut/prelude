@@ -19,6 +19,7 @@
    helm-ag
    multiple-cursors
    neotree
+   popup
    rust-mode
    solarized-theme
    vi-tilde-fringe
@@ -26,6 +27,10 @@
    golden-ratio
    tern
    tern-auto-complete
+   diminish
+   indent-guide
+   smart-mode-line
+   smart-mode-line-powerline-theme
    ))
 
 (provide 'packages)
