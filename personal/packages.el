@@ -6,6 +6,7 @@
    auto-complete
    auto-complete-clang
    auto-highlight-symbol
+   company
    ensime
    evil-escape
    evil-leader
@@ -16,7 +17,7 @@
    fringe-helper
    git-gutter+
    git-gutter-fringe+
-   helm-ag
+   helm-projectile
    multiple-cursors
    neotree
    popup
@@ -26,7 +27,7 @@
    js2-refactor
    golden-ratio
    tern
-   tern-auto-complete
+   company-tern
    diminish
    indent-guide
    smart-mode-line

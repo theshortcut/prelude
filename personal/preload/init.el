@@ -7,7 +7,7 @@
 (scroll-bar-mode -1)
 (when window-system (set-frame-size (selected-frame) 120 80))
 
-(set-frame-font "Input Mono Condensed-16" nil t)
+(set-frame-font "PragmataPro-16" nil t)
 
 (set-frame-parameter (selected-frame) 'alpha '(98 98))
 
