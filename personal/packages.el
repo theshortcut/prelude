@@ -6,7 +6,6 @@
    auto-complete
    auto-complete-clang
    auto-highlight-symbol
-   company
    ensime
    evil-escape
    evil-leader
@@ -20,7 +19,6 @@
    helm-projectile
    multiple-cursors
    neotree
-   popup
    rust-mode
    solarized-theme
    vi-tilde-fringe

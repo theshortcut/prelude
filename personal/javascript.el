@@ -11,6 +11,6 @@
 
 (add-hook 'js2-mode-hook (lambda() (tern-mode t)))
 
-(eval-after-load 'tern
-  '(progn
-     (tern-ac-setup)))
+;; (eval-after-load 'tern
+;;   '(progn
+;;      (tern-ac-setup)))
