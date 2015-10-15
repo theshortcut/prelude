@@ -24,3 +24,5 @@ tramp
 .emacs.desktop
 .emacs.desktop.lock
 network-security.data
+ensime
+ac-comphist.dat
