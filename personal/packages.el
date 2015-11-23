@@ -32,6 +32,10 @@
    smart-mode-line-powerline-theme
    ))
 
+(require 'projectile)
+(setq projectile-indexing-method 'alien)
+(setq projectile-enable-caching t)
+
 (provide 'packages)
 
 ;;; emacsd-ac-module.el ends here
