@@ -20,7 +20,7 @@
    multiple-cursors
    neotree
    rust-mode
-   solarized-theme
+   base16-theme
    vi-tilde-fringe
    js2-refactor
    golden-ratio
@@ -35,6 +35,9 @@
 (require 'projectile)
 (setq projectile-indexing-method 'alien)
 (setq projectile-enable-caching t)
+
+(when (not (eq window-system 'mac))
+  (menu-bar-mode -1))
 
 (provide 'packages)
 
