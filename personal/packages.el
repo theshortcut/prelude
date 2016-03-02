@@ -28,6 +28,7 @@
    company-tern
    diminish
    indent-guide
+   salt-mode
    smart-mode-line
    smart-mode-line-powerline-theme
    ))
