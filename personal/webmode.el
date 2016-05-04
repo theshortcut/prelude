@@ -6,7 +6,7 @@
   (setq web-mode-attr-indent-offset 4)
 
 ;; use web-mode for .jsx files
-(add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
 
 ;; disable jshint since we prefer eslint checking
 (setq-default flycheck-disabled-checkers

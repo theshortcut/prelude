@@ -52,10 +52,10 @@
 (evil-leader/set-key-for-mode 'scala-mode
   "ec"  'ensime
   "ee"  'ensime-print-errors-at-point
+  "ea"  'ensime-show-all-errors-and-warnings
   "ei"  'ensime-inspect-type-at-point
-  "eo"  'ensime-inspect-type-at-point
   "et"  'ensime-import-type-at-point
-  "ero" 'ensime-refactor-organize-imports)
+  "ero" 'ensime-refactor-diff-organize-imports)
 
 (evil-leader/set-key-for-mode 'js2-mode
   ;; refactor stuff
