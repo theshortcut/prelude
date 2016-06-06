@@ -17,7 +17,7 @@
    git-gutter+
    git-gutter-fringe+
    helm-projectile
-   multiple-cursors
+   evil-mc
    neotree
    rust-mode
    base16-theme
