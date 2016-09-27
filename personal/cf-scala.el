@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 (require 'prelude-programming)
 (remove-hook 'scala-mode 'flycheck-mode)
 (require 'ensime)

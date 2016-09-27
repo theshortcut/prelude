@@ -1,4 +1,4 @@
-;;; packages.el --- packages for prelude to load
+;;; cf-packages.el --- packages for prelude to load
 
 ;;; Code:
 (prelude-require-packages
@@ -40,6 +40,6 @@
 (when (not (eq window-system 'mac))
   (menu-bar-mode -1))
 
-(provide 'packages)
+(provide 'cf-packages)
 
-;;; emacsd-ac-module.el ends here
+;;; cf-packages.el ends here

@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 
 (eval-after-load "smartparens"
   '(diminish 'smartparens-mode "sp"))

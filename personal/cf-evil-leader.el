@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 (global-evil-leader-mode)
 (evil-leader/set-leader "<SPC>")
 (evil-leader/set-key

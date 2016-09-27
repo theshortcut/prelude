@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 
 (golden-ratio-mode t)
 

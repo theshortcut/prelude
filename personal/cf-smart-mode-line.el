@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 
 (setq sml/theme nil
       sml/shorten-directory t

@@ -1,3 +1,3 @@
-(require 'packages)
+(require 'cf-packages)
 
 (indent-guide-global-mode)

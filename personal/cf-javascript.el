@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 (require 'prelude-programming)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-jsx-mode))

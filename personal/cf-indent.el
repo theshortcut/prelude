@@ -1,4 +1,4 @@
-(require 'packages)
+(require 'cf-packages)
 
 (setq tab-width 2)
 (setq c-bassic-offset 2)
