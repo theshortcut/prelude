@@ -13,6 +13,7 @@
    evil-surround
    fancy-narrow
    flycheck-rust
+   flycheck-flow
    fringe-helper
    git-gutter+
    git-gutter-fringe+

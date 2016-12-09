@@ -17,7 +17,7 @@
  '(global-linum-mode t)
  '(package-selected-packages
    (quote
-    (zop-to-char zenburn-theme yari which-key web-mode volatile-highlights vkill vi-tilde-fringe smex smartrep smartparens smart-mode-line-powerline-theme scss-mode salt-mode rust-mode ruby-tools rainbow-mode rainbow-delimiters ov operate-on-number neotree move-text markdown-mode magit json-mode js2-refactor inf-ruby indent-guide imenu-anywhere ido-ubiquitous helm-projectile helm-descbinds helm-ag guru-mode grizzl golden-ratio god-mode gitignore-mode gitconfig-mode git-timemachine git-gutter-fringe+ gist geiser flycheck-rust flx-ido fancy-narrow expand-region exec-path-from-shell evil-visualstar evil-surround evil-numbers evil-nerd-commenter evil-mc evil-leader evil-escape ensime elisp-slime-nav easy-kill discover-my-major diminish diff-hl crux company-tern company-anaconda coffee-mode browse-kill-ring beacon base16-theme auto-highlight-symbol auto-complete-clang anzu ace-window)))
+    (zop-to-char zenburn-theme yari which-key web-mode volatile-highlights vkill vi-tilde-fringe smex smartrep smartparens scss-mode salt-mode rust-mode ruby-tools rainbow-mode rainbow-delimiters ov operate-on-number neotree move-text markdown-mode magit json-mode js2-refactor inf-ruby indent-guide imenu-anywhere ido-ubiquitous helm-projectile helm-descbinds helm-ag guru-mode grizzl golden-ratio god-mode gitignore-mode gitconfig-mode git-timemachine git-gutter-fringe+ gist geiser flycheck-rust flx-ido fancy-narrow expand-region exec-path-from-shell evil-visualstar evil-surround evil-numbers evil-nerd-commenter evil-mc evil-leader evil-escape ensime elisp-slime-nav easy-kill discover-my-major diminish diff-hl crux company-tern company-anaconda coffee-mode browse-kill-ring beacon base16-theme auto-highlight-symbol auto-complete-clang anzu ace-window)))
  '(pivotal-api-token "e0e8d108066b971c87fbae5f4e6ced86")
  '(safe-local-variable-values
    (quote
@@ -28,75 +28,7 @@
      (textmate-gf-exclude . "(/|^)(\\.+[^/]+|fixtures|tmp|log|classes|build|target)($|/)|(\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc)(/|$)")
      (textmate-gf-exclude . "(/|^)(\\.+[^/]+|fixtures|node_modules|tmp|log|classes|build)($|/)|(\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc)(/|$)")
      (textmate-gf-exclude . "(/|^)(\\.+[^/]+|fixtures|tmp|log|classes|repo|scala-pkg)($|/)|(\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc)(/|$)")
-     (textmate-project-roots ".dir-locals.el"))))
- '(sml/mode-width
-   (if
-       (eq
-        (powerline-current-separator)
-        (quote arrow))
-       (quote right)
-     (quote full)))
- '(sml/pos-id-separator
-   (quote
-    (""
-     (:propertize " " face powerline-active1)
-     (:eval
-      (propertize " "
-                  (quote display)
-                  (funcall
-                   (intern
-                    (format "powerline-%s-%s"
-                            (powerline-current-separator)
-                            (car powerline-default-separator-dir)))
-                   (quote powerline-active1)
-                   (quote powerline-active2))))
-     (:propertize " " face powerline-active2))))
- '(sml/pos-minor-modes-separator
-   (quote
-    (""
-     (:propertize " " face powerline-active1)
-     (:eval
-      (propertize " "
-                  (quote display)
-                  (funcall
-                   (intern
-                    (format "powerline-%s-%s"
-                            (powerline-current-separator)
-                            (cdr powerline-default-separator-dir)))
-                   (quote powerline-active1)
-                   (quote sml/global))))
-     (:propertize " " face sml/global))))
- '(sml/pre-id-separator
-   (quote
-    (""
-     (:propertize " " face sml/global)
-     (:eval
-      (propertize " "
-                  (quote display)
-                  (funcall
-                   (intern
-                    (format "powerline-%s-%s"
-                            (powerline-current-separator)
-                            (car powerline-default-separator-dir)))
-                   (quote sml/global)
-                   (quote powerline-active1))))
-     (:propertize " " face powerline-active1))))
- '(sml/pre-minor-modes-separator
-   (quote
-    (""
-     (:propertize " " face powerline-active2)
-     (:eval
-      (propertize " "
-                  (quote display)
-                  (funcall
-                   (intern
-                    (format "powerline-%s-%s"
-                            (powerline-current-separator)
-                            (cdr powerline-default-separator-dir)))
-                   (quote powerline-active2)
-                   (quote powerline-active1))))
-     (:propertize " " face powerline-active1))))
- '(sml/pre-modes-separator (propertize " " (quote face) (quote sml/modes))))
+     (textmate-project-roots ".dir-locals.el")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

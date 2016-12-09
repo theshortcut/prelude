@@ -9,7 +9,7 @@
 
 (set-frame-parameter (selected-frame) 'alpha '(98 98))
 
-(add-to-list 'default-frame-alist '(font . "Operator Mono for Powerline 16"))
+(add-to-list 'default-frame-alist '(font . "PragmataPro-16"))
 (add-to-list 'default-frame-alist '(alpha 98 98))
 
 (setq magit-last-seen-setup-instructions "1.4.0")

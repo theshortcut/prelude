@@ -4,6 +4,10 @@
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-jsx-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . js2-jsx-mode))
 
+(require 'flycheck-flow)
+(add-to-list 'flycheck-checkers 'javascript-flow)
+(flycheck-add-mode 'javascript-flow 'js2-jsx-mode)
+
 (setq js2-mode-show-parse-errors nil)
 (setq js2-highlight-external-variables nil)
 (setq js2-strict-trailing-comma-warning nil)

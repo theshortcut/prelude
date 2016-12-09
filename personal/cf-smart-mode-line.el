@@ -1,6 +1,9 @@
 (require 'cf-packages)
 
-(setq sml/theme nil
+(require 'powerline)
+(powerline-default-theme)
+
+(setq sml/theme 'powerline
       sml/shorten-directory t
       sml/name-width 32
       sml/shorten-modes t
