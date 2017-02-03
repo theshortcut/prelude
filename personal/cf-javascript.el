@@ -7,7 +7,10 @@
 (require 'flycheck-flow)
 (add-to-list 'flycheck-checkers 'javascript-flow)
 (flycheck-add-mode 'javascript-flow 'js2-jsx-mode)
-
+(flycheck-add-mode 'javascript-eslint 'js2-jsx-mode)
+(add-hook 'js2-jsx-mode-hook (lambda ()
+                               (flycheck-select-checker 'javascript-eslint)
+                               (flycheck-add-next-checker 'javascript-eslint 'javascript-flow)))
 (setq js2-mode-show-parse-errors nil)
 (setq js2-highlight-external-variables nil)
 (setq js2-strict-trailing-comma-warning nil)

@@ -4,6 +4,7 @@
 (remove-hook 'scala-mode 'flycheck-mode)
 
 (require 'ensime)
+(setq ensime-startup-snapshot-notification nil)
 (setq ensime-startup-notification nil)
 (add-hook 'scala-mode-hook
           (lambda ()
