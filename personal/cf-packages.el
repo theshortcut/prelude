@@ -6,7 +6,9 @@
    auto-complete
    auto-complete-clang
    auto-highlight-symbol
+   dash-at-point
    ensime
+   evil
    evil-escape
    evil-leader
    evil-nerd-commenter
