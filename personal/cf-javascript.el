@@ -49,6 +49,17 @@
 (add-hook 'js2-mode-hook #'cf/use-local-babel-node)
 (add-hook 'projectile-after-switch-project-hook #'cf/use-local-babel-node)
 
+(defun cf/use-flow-from-node-modules ()
+  (let* ((root (locate-dominating-file
+                (or (buffer-file-name) default-directory)
+                "node_modules"))
+         (flow (and root
+                    (expand-file-name "node_modules/flow-bin/vendor/flow"
+                                      root))))
+    (when (and flow (file-executable-p flow))
+      (setq-local flycheck-javascript-flow-executable flow))))
+(add-hook 'flycheck-mode-hook #'cf/use-flow-from-node-modules)
+
 ;; (eval-after-load 'tern
 ;;   '(progn
 ;;      (tern-ac-setup)))
